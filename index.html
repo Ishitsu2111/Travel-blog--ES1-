@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Andy's Travel Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/home.css" rel="stylesheet">
+    <script src="/js/home.js"></script>
+    <script src="https://kit.fontawesome.com/944eb371a4.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <main>
+      <button class="mute-button" onclick="muteUnmute()">
+        <i class="fa fa-volume-up" id="speaker"></i>
+      </button>
+      <video id="video" src="/Resource/Soup.mp4" autoplay loop ></video>
+    </main>
+    <nav>
+      <div id="nav-links">
+        <a class="nav-link" href="/DAD.html">
+          <h2 class="nav-link-label rubik-font">About me</h2>
+          <img class="nav-link-image" src="https://images.unsplash.com/photo-1445272885371-027f17af0130?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" />
+        </a>
+        <a class="nav-link" href="/SIN.html">
+          <h2 class="nav-link-label rubik-font">Singapore</h2>
+          <img class="nav-link-image" src="https://images.unsplash.com/flagged/photo-1562503542-2a1e6f03b16b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" />
+        </a>
+        <a class="nav-link" href="/DMK.html">
+          <h2 class="nav-link-label rubik-font">Bangkok</h2>
+          <img class="nav-link-image" src="https://images.unsplash.com/photo-1535117399959-7df1714b4202?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" />
+        </a>
+        <a class="nav-link" href="/KUL.html">
+          <h2 class="nav-link-label rubik-font">Kuala Lumpur</h2>
+          <img class="nav-link-image" src="https://images.unsplash.com/photo-1589260097587-942004ad2b3d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" />
+        </a>
+        <a class="nav-link" href="/NRT.html">
+          <h2 class="nav-link-label rubik-font">Tokyo</h2>
+          <img class="nav-link-image" src="https://images.unsplash.com/photo-1513407030348-c983a97b98d8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" />
+        </a>
+      </div>
+    </nav>
+
+    <button id="nav-toggle" type="button" onclick="toggleNav()">
+      <i class="open fa-light fa-bars-staggered"></i>
+      <i class="close fa-light fa-xmark-large"></i>
+    </button>
+    <a id="source-link" class="meta-link" href="https://www.buildinamsterdam.com/cases" target="_blank">
+      <i class="fa-solid fa-link"></i>
+      <span class="roboto-mono">Source</span>
+    </a>    
+  </body>
+</html>
